@@ -43,7 +43,7 @@ while !end_shopping do
   puts "😭 買い物を終了しますか？(yes/no)"
   end_shopping = gets.chomp == "yes"
 end
-
+binding.irb
 puts "💸 購入を確定しますか？(yes/no)"
 customer.cart.check_out if gets.chomp == "yes"
 
